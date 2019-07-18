@@ -1,0 +1,243 @@
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	}
+
+ul {
+	list-style: none;
+	padding: 0;
+	}
+
+.withSize {
+	width: 70%;
+	margin: 0 auto;
+	}
+
+@import url('https://fonts.googleapis.com/css?family=Muli:300,400,600,700&display=swap');
+
+body, p, a, .navbar a {
+	font-family: "Muli",sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	color: #1d2124;
+	}
+h1,h2,h3,h4,h5,h6 {
+	font-family:"Muli", sans-serif;
+	}
+
+h1 {
+	font-size: 45px;
+	}
+
+h2 {
+	font-size: 40px;
+	color: #2db9fe;
+	}
+
+h3 {
+	font-size: 30px;
+	}
+
+h6 {
+	color: #ff365f;
+	font-weight: 600;
+	}
+
+.btn {
+	background-color:#ff365f !important; ;
+	}
+
+.navbar a, .navbar {
+	font-size: 0.9em;
+	box-shadow: none;
+	}
+
+.my-btn {
+	padding: 8px 20px;
+	border-radius: 3px !important;
+
+	}
+.my-btn.btn {
+	font-size: 0.6em !important;
+	}
+
+.my-navbar-A, .my-navbar-A a {
+	color: #fff;
+	background-color: #3453ac !important;
+	box-shadow: none;
+	}
+.dropdown-menu {
+	background-color: transparent;
+	border:none;
+	}
+
+.my-navbar-B, .my-navbar-B a {
+	color: #fff !important;
+	font-size: 0.8em;
+	letter-spacing: 0.2em;
+	background-color: #3D62CA !important;
+	box-shadow: none;
+	text-transform: uppercase;
+	}
+
+.navbar .dropdown-menu a {
+	font-size: 0.8em;
+	}
+
+.main-img {
+	width: 100%;
+	height: auto;
+	display: block;
+	position: relative;
+	color: #fff;
+	background-color: #3d62ca;
+	}
+
+.form-control {
+	border: 0px;
+	border-bottom: 1px #0f0f0f solid;
+	border-radius: 0;
+	font-size: 0.7em;
+	padding: 0;
+	background-color: transparent;
+	}
+
+.main-slider.input-group-text {
+	color: #fff;
+	background-color: transparent;
+	border: 0px;
+	}
+
+.form-control,.form-control.form-control::placeholder, #inlineFormInputGroupUsername.form-control.form-control::placeholder, #inlineFormInputName.form-control.form-control::placeholder, label.sr-only.active {
+	background-color: transparent !important;
+	color: #fff;
+	}
+
+.slider-form, .slider-form::placeholder {
+	font-size: 1em;
+	color: #adadaf !important;
+	}
+
+.form-control:focus {
+	box-shadow: none;
+	}
+
+.icon-style {
+	font-size: 2em;
+	color: #9b89bf;
+	text-align: center;
+	display: inline-block;
+	}
+
+.icon-style-btn {
+	padding: 1em;
+	color: #ff365f;
+	}
+
+.icon-style-needs {
+	font-size: 3em;
+	color: #fff;
+	text-align: center;
+	display: inline-block;
+	padding: 27px 10px;
+	}
+
+.cta-btn {
+	font-weight: 600;
+	color: #ff365f;
+	padding: 1em 0.5em;
+	border: 2px #ff365f solid;
+	border-radius: 5px;
+	width: 70%;
+	}
+
+hr {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	border: 0;
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	}
+
+.title-needs {
+	color: #2db9fe;
+	}
+
+.title-services {
+	color: #ff365f;
+	}
+
+.bg-style {
+	color: #fff;
+	background: -webkit-linear-gradient(95deg, #3d62ca 25%, #fff 25.2%);
+	background: -o-linear-gradient(95deg, #3d62ca 25%, #fff 25.2%);
+	background: -moz-linear-gradient(95deg, #3d62ca 25%, #fff 25.2%);
+	background: linear-gradient(95deg, #3d62ca 25%, #fff 25.2%);
+	border-radius: 5px;
+	-webkit-box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
+	box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+	flex: 0 0 47%;
+	margin: 0 auto;
+	}
+
+.size-title {
+	font-size: 0.8em !important;
+	}
+
+.page-footer, .page-footer p{
+	color: #fff;
+	font-size: 0.9em !important;
+	background-color: #3d62ca !important;
+	padding: 0;
+	margin-bottom: 0.5em;
+	}
+
+.page-footer h5 {
+	font-size: 1.5em;
+	}
+
+@media (max-width: 768px) {
+	.withSize {
+		width: 98%;
+		}
+	
+	.mob {
+		padding: 0 7%;
+		margin: 0 0 0.5em !important;
+		}
+	
+	.mob-text {
+		text-align: center;
+		}
+	
+	h1,h2,h3 {
+		font-size: 2.3em;
+		line-height: 1.1em;
+		}
+	
+	.features {
+		text-align: center;
+		}
+	
+	.bg-style {
+		flex: auto !important;
+		}
+	
+	.icon-style-needs {
+		font-size: 1.8em;
+		color: #fff;
+		text-align: center;
+		display: inline-block;
+		padding: 10px 0px 0px;
+		}
+	
+	.form-inline {
+		display: none;
+		}
+	
+	.navbar-brand {
+		margin-right: 0em !important;
+		}
+	
+	}
